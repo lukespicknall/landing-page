@@ -12,7 +12,7 @@ body {
     display:  flex;
     flex-direction: column;
     background: rgb(73, 65, 94);
-    color: rgb(255, 250, 245);
+    color: whitesmoke;
     justify-self: center;
     padding: 20px 265px 70px 265px
 }
@@ -60,7 +60,7 @@ h1 {
 .left p {
     margin-top: 3px;
 }
-.left button {
+button {
   border-radius: 80px;
   background-color: #4CAF50;
   border-style: none;
@@ -70,6 +70,9 @@ h1 {
   font-size: 16px;
   margin: 0%;
 }
+
+/*    SPACE      */
+
 .mid {
     display: flex;
     flex-direction: column;
@@ -77,21 +80,84 @@ h1 {
 }
 .midhead {
     display: flex;
-    margin: 60px;
+    margin: 50px;
 }
 .midhead h1 {
     margin: 0;
 }
 .typeimg {
     display: flex;
-    gap: 10px;
+    gap: 15px;
+    text-align: center;
+    margin-bottom: 100px;
 }
-.typeimg img{
+.typeimg img {
     width: 250px;
     border-radius: 20px;
     border-style: solid;
     border-color:rgb(73, 65, 94);
     border-width: 3px;
+}
+.caption {
+    font-size: 15px;
+    width: 250px;
+    margin-top: 12px;
+}
+
+/*     SPACE */
+
+.quote {
+  display: flex;
+  height: 350px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #e5e7eb;
+  padding-left: 350px;
+  padding-right: 350px;
+}
+
+.poem {
+ font-size: 25px;
+ font-style: italic;
+
+}
+.cite {
+    text-align: end;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*      SPACE      */
+
+.donation {
+    display: flex;
+    align-items: center;
+    margin: 95px 300px 100px 300px;
+
+}
+.wrapper {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+    padding: 30px;
+    border-radius: 20px;
+    background: rgb(186, 175, 204);
+    color: white;
+}
+.involve {
+    font-size: 12;
+    padding: 0;
+}
+.involve h2 {
+    margin: 0;
+}
+
+/*      SPACE     */
+.footer {
+    background-color: rgb(73, 65, 94);
+    color: whitesmoke;
+    text-align: center;
+    font-size: 14px;
 }
 a {
     text-decoration: none;
