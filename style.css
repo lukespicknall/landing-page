@@ -89,7 +89,7 @@ button {
     display: flex;
     gap: 15px;
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 110px;
 }
 .typeimg img {
     width: 250px;
@@ -132,7 +132,7 @@ button {
 .donation {
     display: flex;
     align-items: center;
-    margin: 95px 300px 100px 300px;
+    margin: 110px 300px 110px 300px;
 
 }
 .wrapper {
